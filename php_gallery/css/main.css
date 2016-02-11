@@ -1,0 +1,181 @@
+body {
+	margin:0px;
+	
+	background-color:black;
+	color:white;
+	overflow:hidden;
+	
+	font-family:Bebas Neue;
+	cursor: crosshair;
+}
+
+h1 {
+	color:black;
+	font-size:45px;
+	line-height:0px;
+	text-decoration:overline;
+}
+
+h3 {
+	color:black;
+	font-size:22px;
+	font-weight:bold;
+	line-height:0px;
+	margin-bottom:40px;
+	text-decoration:underline;
+	
+}
+
+a {
+	color:black;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+}
+
+a:focus, a:hover {
+	text-decoration:underline;
+}
+
+a.selected {
+	text-decoration:underline;
+}
+
+.sidebar {
+	position:fixed;
+	float:left;
+	left:15px;
+	
+	height:100%;
+	width:250px;
+	
+	background-color:white;
+	padding-top:250px;
+	text-align:center;
+}
+
+.content {
+	position:absolute;
+	float:right;
+	left:280px;
+	
+	height:100%;
+	width:100%;
+	overflow-y:scroll;
+	
+	border-left:30px solid white;
+	background-color:black;
+	padding-left:15px;
+}
+
+#enter {
+	overflow:hidden;
+}
+
+#enterimage {
+	position:absolute;
+	
+	z-index:100;
+	height:100vh;
+	width:100%;
+	overflow:hidden;
+	
+	font-size:200px;
+	background-image:url(../images/KYH.jpg);
+	
+}
+
+#enterimage:hover {
+	cursor:pointer;
+}
+
+#about {
+	position:relative;
+	
+	z-index:100;
+	height:100vh;
+	width:auto;
+	overflow:hidden;
+	
+	font-size:20px;
+	color:black;
+	background-image:url(../images/ROTfade.jpg);
+	background-color:white;
+	background-size:cover;
+	text-align:center;
+}
+
+#aboutcontent {
+	padding:200px 500px 0px 180px;
+}
+
+#lightbox {
+	z-index:50;
+}
+
+/*GALLERIA CSS*/
+
+.galleria { 
+	width:800px; 
+	height:100vh; 
+	background:black;
+	padding-left:30px;
+}
+
+/*LINKOUT CSS*/
+
+.linkout {
+	color:black;
+}
+
+/*FORM CSS*/
+
+#contact {
+	position:relative;
+	overflow:hidden;
+	
+	z-index:100;
+	height:auto;
+	width:auto;
+	
+	font-size:20px;
+	color:white;
+	background-size:cover;
+	text-align:left;
+	
+	padding-top:200px;
+	padding-left:180px;
+	
+}
+
+form {
+	width:500px;
+}
+
+input[type=text], input[type=email], input[type=url] {
+	width:500px;
+	padding:4px;
+	margin-bottom:8px;
+}
+
+#message {
+	width:500px;
+	padding:4px;
+}
+
+input[type=submit] {
+	display:block;
+	margin:auto;
+	color:white;
+	border:3px solid white;
+	background-color:black;
+	padding:10px 30px 10px 30px;
+}
+
+input[type=submit]:hover {
+	color:black;
+	background-color:white;
+	font-weight:bold;
+	cursor:pointer;
+}
