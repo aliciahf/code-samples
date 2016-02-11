@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+<style type="text/css">
+
+@font-face {
+	font-family: "Silkscreen"
+	src: url(../fonts/slkscr.ttf);
+}
+
+a, a:link, a:active, a:visited {
+    text-decoration:none;
+	color:white;
+	font-size:25px;
+	font-family:Silkscreen, Futura, Calibri, Verdana, Geneva, sans-serif;
+}
+
+a:hover {
+	opacity:0.8;
+}
+
+div {
+	font-family: Futura, Calibri, Verdana, Geneva, sans-serif;
+	height:10px;
+	width:auto;
+}
+
+span {
+	font-family: Futura, Calibri, Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+
+p {
+	text-decoration:none;
+	font-family: Futura, Verdana, Geneva, sans-serif;
+	font-size:13px;
+	text-align:center;
+	padding:0.5em;
+}
+
+li {
+	list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+	font-family: Futura, Calibri, sans-serif;
+	padding:20px 0px 30px 130px;
+	font-size:25px;
+}
+
+body {
+	position:absolute;
+	background-color:white;
+	color:black;
+	font-family:Calibri, Futura, Geneva, Verdana, sans-serif;
+	font-size:11px;
+	height:100%;
+	width:100%;
+	overflow-x:auto;
+}
+
+body#index{
+	background-image:url(../images/CANTI.jpg);
+	position:fixed;
+	margin:-3px;
+	overflow-x:hidden;
+}
+
+body#about{
+	margin:-3px;
+	height:300px;
+	overflow-x:hidden;
+}
+
+body#artwork{
+	margin:-3px;
+	height:325px;
+	overflow-x:hidden;
+}
+
+body#gallery{
+	margin:-3px;
+	height:100%;
+	width:300%;
+}
+
+.sidebar {
+	position:absolute;
+	top:0px;
+	background-color:black;
+	height:auto;
+	width:100%;
+	text-align:left;
+	padding:10px;
+}
+
+.content {
+	color:black;
+	position:absolute;
+	top:200px;
+	height:auto;
+	width:100%;
+	padding-top:.3em;
+}
+
+#icon {
+	position:absolute;
+	opacity:0;
+}
+
+#navgrid {
+	position:absolute;
+}
+
+ul.lb-album{
+	margin-top:80px;
+}
+
+</style>

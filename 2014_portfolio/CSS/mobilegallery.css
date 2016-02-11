@@ -1,0 +1,116 @@
+.lb-album{
+	width: 900px;
+	margin: auto;
+	font-family:Silkscreen, Futura, Calibri, Verdana, Geneva, sans-serif;
+}
+
+.lb-album li{
+	float: left;
+	margin: 5px;
+	position: relative;
+}
+
+.lb-album li > a,
+.lb-album li > a img{
+	display: block;
+}
+
+.lb-album li > a{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	padding: 10px;
+	background:#000;
+}
+
+.lb-album li > a:hover span{
+	opacity: .5;
+}
+.lb-overlay{
+	width: 0px;
+	height: 0px;
+	position: relative;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	text-align: center;
+	background: black;
+	z-index:200;
+}
+.lb-overlay > div{
+	position: relative;
+	color: white;
+	width: 550px;
+	height: 80px;
+	margin: 0px auto 20px auto;
+}
+
+.lb-overlay div h3,
+.lb-overlay div p{
+	padding: 0px 20px;
+	width: 200px;
+	height: 60px;
+}
+
+.lb-overlay div h3{
+	font-size: 30px;
+	float: left;
+	text-align: right;
+	border-right: 1px solid white;
+}
+
+.lb-overlay div h3 span,
+.lb-overlay div p{
+	font-size: 16px;
+	font-family: Silkscreen, Futura, Calibri, Verdana, Geneva, sans-serif;
+	padding:20px 0px 0px 15px;
+}
+
+.lb-overlay div h3 span{
+	display: block;
+	line-height: 6px;
+}
+
+.lb-overlay div p{
+	font-size: 14px;
+	text-align: left;
+	float: left;
+	width: 260px;
+}
+
+.lb-overlay a.lb-close{
+	background: #903;
+	z-index: 1001;
+	color: #fff;
+	position: absolute;
+	top: 45px;
+	left: 50%;
+	font-size: 15px;
+	line-height: 26px;
+	text-align: center;
+	width: 50px;
+	height: 23px;
+	overflow: hidden;
+	margin-left: -25px;
+	opacity: 0;
+}
+
+.lb-overlay img{
+	max-height: 100%;
+	position: relative;
+	opacity: 0;
+}
+
+.lb-overlay:target {
+	width: auto;
+	height: auto;
+	bottom: 0px;
+	right: 0px;
+	padding: 80px 100px 120px 100px;
+}
+.lb-overlay:target img,
+.lb-overlay:target a.lb-close{
+	opacity: 1;
+	padding: 0px 5px 0px 5px;
+}

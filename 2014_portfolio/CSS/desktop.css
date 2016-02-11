@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+<style type="text/css">
+
+@font-face {
+	font-family: "Silkscreen"
+	src: url(../fonts/slkscr.ttf);
+}
+
+a, a:link, a:active, a:visited {
+    text-decoration:none;
+	color:white;
+	font-size:25px;
+	font-family:Silkscreen, Futura, Calibri, Verdana, Geneva, sans-serif;
+}
+
+a:hover {
+	opacity:0.8;
+}
+
+div {
+	font-family: Futura, Calibri, Verdana, Geneva, sans-serif;
+	height:10px;
+	width:auto;
+}
+
+span {
+	font-family: Futura, Calibri, Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+
+p {
+	text-decoration:none;
+	font-family: Futura, Calibri, Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-size:15px;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1 {
+	font-family: Futura, Calibri, sans-serif;
+	padding:20px 0px 0px 130px;
+	font-size:30px;
+}
+
+body {
+	position:absolute;
+	background-color:white;
+	color:black;
+	font-family:Calibri, Futura, Geneva, Verdana, sans-serif;
+	font-size:11px;
+	height:100%;
+	width:100%;
+	overflow-x: hidden;
+}
+
+body#index{
+	background-image:url(../images/CANTI.jpg);
+	position:fixed;
+}
+
+body#about{
+	position:fixed;
+	width:100%;
+}
+
+body#artwork{
+	position:fixed;
+}
+
+table {
+	text-decoration:none;
+}
+
+tr {
+	text-decoration:none;
+}
+
+td{
+	text-decoration:none;
+}
+
+.header {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100px;
+	background-image: url(../images/fullbanner.png);
+	border-bottom: 10px solid black;
+	border-top: 10px solid black;
+	background-color:#cb9d31;
+	z-index: 100;
+	overflow:hidden
+}
+
+.sidebar {
+	position:fixed;
+	top:110px;
+	left:0px;
+	bottom:0px;
+	background-color:black;
+	height:auto;
+	width:auto;
+	text-align:center;
+	padding:160px 20px;
+	line-height:80px;
+}
+
+.content {
+	color:black;
+	position:absolute;
+	top:120px;
+	bottom:0px;
+	right:0px;
+	height:100%;
+	width:83%;
+	overflow:hidden;
+	overflow: inherit;
+}
+
+#icon {
+	position:fixed;
+	left:77px;
+	top:50px;
+	z-index:130
+}
+
+#navgrid {
+	position:absolute;
+	bottom:0%;
+	top:3%;
+	left:20%;
+	right:0px;
+}
+
+#abouttxt {
+	padding:150px;
+	margin:0px 100px 0px 100px;
+}
+
+</style>
