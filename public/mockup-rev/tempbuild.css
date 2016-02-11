@@ -1,0 +1,263 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html, body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+  text-rendering: optimizeLegibility;
+}
+img {
+  margin-bottom:8px;
+}
+
+/* left column */
+.nav-head {
+  padding:10px;
+  margin:0px;
+}
+.nav-section {
+  font-weight: bold;
+  padding-left:10px;
+  padding-bottom:5px;
+}
+#context-nav .nav {
+  margin: 15px 0 5px 15px;
+  border-radius: 8px 0 0 8px;
+  padding: 10px 0 10px 10px;
+  background: #f8f8f8;
+}
+#context-nav .nav .active {
+  border-radius: 8px 0 0 8px;
+  background: white;
+  padding-left:30px;
+}
+#context-nav .nav .active:after { /* active tabarrow css code */
+  content: '';
+  position: absolute;
+  top:10px;
+  left:20px;
+  border:5px solid;
+  border-color: transparent transparent transparent #337ab7;
+}
+.tab-arrow {
+  display:none;
+}
+.active .tab-arrow {
+  display:inline;
+}
+#context-nav .nav a, #content .nav a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#context-nav .nav>li>a, #global-nav .nav>li>a {
+  padding: 5px 20px;
+}
+#context-nav .nav>li>a:hover {
+  background:#FDFDFD;
+}
+#context-nav .active:hover{
+  background:white!important;
+}
+#global-nav .nav>li>a:hover {
+  background:#f8f8f8;
+}
+
+/* content */
+#content {
+  background:white;
+}
+.content-pane {
+  margin: 0 20px;
+}
+.main-content {
+  background-color:white;
+  border-radius:8px;
+}
+.section {
+  padding:15px 15px 5px 15px;
+  display: table-row;
+}
+.step:nth-of-type(even) {
+  background: #f8f8f8;
+}
+.step:nth-of-type(odd) {
+  background: #EFEFEF;
+}
+.section-label {
+  display: table-cell;
+  padding:15px 10px 15px 13px;
+  vertical-align:top;
+  text-align:center;
+}
+.section-desc {
+  display: table-cell;
+  width:100%;
+  padding:15px 20px 5px 5px;
+  vertical-align:middle;
+}
+/* content *//* other content grid */
+#next {
+  padding:20px;
+  margin-bottom:8px;
+}
+.block {
+  height:230px;
+  background:url("http://www.cookrepublic.com/wp-content/themes/typegrid11/img/placeholder.png");
+  border-radius:3px;
+  border:1px solid #ADB9CC;
+}
+@media screen and (max-width: 767px) {
+  .block {
+    width:100%;
+    margin:10px 0px 3px 0px;
+  }
+  .grid a {
+    opacity:1!important;
+  }
+}
+@media screen and (min-width: 767px) {
+  .block {
+    width:48%;
+    margin:1%;
+  }
+}
+.grid a {
+  color:white;
+  opacity:0.8;
+}
+.grid a:hover {
+  opacity:1;
+}
+.block-desc {
+  position:absolute;
+  left:0px;
+  width:100%;
+  height:auto;
+  bottom:0px;
+  background:red;
+}
+.block-title {
+  background:#1B2C4A;
+  position:relative;
+  top:0px;
+  left:0px;
+  width:100%;
+  padding:5px;
+}
+.block-tease {
+  background:#EFEFEF;
+  color:black;
+  position:relative;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  height:auto;
+  padding:5px 8px 5px 8px;
+}
+
+
+/* right column */
+#global-nav .nav {
+  margin:15px;
+  padding:15px 0px 15px 0px;
+  background:white;
+
+}
+
+/* footer */
+footer {
+  margin-top:0px;
+  padding:10px;
+  text-align:right;
+  color:#7A8699;
+  font-size:10px;
+}
+
+/* misc tweaks */
+.backtotop{
+  text-align:center;
+  margin-top:820px;
+  padding:10px;
+  font-size:10px;
+}
+.btn, .btn:active, .btn:visited {
+  background:#FF5C3E;
+  border:none;
+  vertical-align: middle;
+}
+.btn:hover {
+  background:#ED4325;
+  border:none;
+}
+.equation {
+  text-align:center;
+  font-weight:bold;
+  font-size:18px;
+  padding:5px;
+}
+.term {
+  color:#7A8699;
+  border-bottom: 1px dotted #ADB9CC;
+  text-decoration: none;
+}
+.term:hover {
+  color:#4D5666;
+}
+.right {
+  float:right;
+}
+.carousel-controls {
+  padding:10px 5px;
+}
+.section .fa {
+  opacity:0.5;
+}
+.next a{
+  font-weight:bold;
+  -webkit-font-smoothing: antialiased;
+}
+h1,h2,h3 {
+  color:#263F6A;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+  .row-offcanvas-right {
+    right: 0;
+  }
+  .row-offcanvas-left {
+    left: 0;
+  }
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+  .row-offcanvas-right.active {
+    right: 0%; /* 6 columns */
+  }
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%;
+  }
+}

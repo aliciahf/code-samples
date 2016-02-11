@@ -1,0 +1,133 @@
+.container {
+	padding:10px;
+}
+#area {
+	padding-top:10px;
+}
+
+#output {
+	padding:5px;
+	margin:5px;
+	background-color:white !important;
+}
+
+#output table {
+  width: 100%;
+}
+
+#output td {
+  width: 50%;
+  vertical-align: top;
+}
+
+.header h4 {
+  display: inline;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#output img {
+  max-height: 100px;
+  width: auto;
+}
+
+.process {
+  margin-bottom: 10px;
+}
+
+
+
+/*line div sections*/
+.section {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #aaa;
+}
+
+.section .header, .section .header a {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.subs {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.field {
+  margin: 5px;
+  padding: 5px;
+  border: 1px dotted #ddd;
+}
+
+.field .header {
+  color: navy;
+  font-weight: bold;
+}
+
+.reference {
+  margin: 5px;
+  padding: 5px;
+  border: 1px dotted #ddd;
+}
+
+.reference .header {
+  color: darkred;
+  font-weight: bold;
+}
+
+
+.markdown {
+  margin-top: 10px;
+}
+.error {
+  margin: 2px 0;
+  font-size: smaller;
+  font-style: italic;
+	color: red;
+}
+.none {
+	background-color:#eee;
+}
+
+.term {
+  text-decoration: underline;
+}
+
+.blank {
+  width: 20px;
+  border-bottom: 1px solid black;
+}
+
+.center {
+  text-align: center;
+}
+
+.cm-s-default .cm-error {
+  color: red;
+  font-style: italic;
+}
+
+.cm-s-default .cm-section {
+  color: darkgreen;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cm-s-default .cm-reference {
+  color: darkred;
+  font-weight: bold;
+}
+
+.cm-s-default .cm-field {
+  color: navy;
+  font-weight: bold;
+}
+
+.cm-s-default .cm-equation {color: #997;}
+.cm-s-default .cm-definition {color: #a11;}
+
+.CodeMirror {
+  height: 600px;
+  border: 1px dotted #aaa;
+}
