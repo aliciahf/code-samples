@@ -13,3 +13,6 @@ Includes assignments, professional work, and personal code
 - **2015_php_gallery** -- Rough image portfolio mockup assignment using PHP.
 - **2015_upraised_mockup** -- Templating files for a educational web application, written while working for Upraised Learning.
 
+2016
+
+- **2016_css_animation** -- CSS transitions & animation assignment
