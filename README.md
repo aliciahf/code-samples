@@ -16,5 +16,5 @@ Includes assignments, professional work, and personal code
 2016
 
 - **2016_css_animation** -- CSS transitions & animation assignment
-- **2016_gamecode -- Various assignments from Introduction to Programming for Games
-- - **ASSIGNMENT_05B -- Potion Shelf (Collision Testing/Avatar & Non-Avatar Interaction)
+- **2016_gamecode** -- Various assignments from Introduction to Programming for Games
+> **ASSIGNMENT_05B** -- Potion Shelf (Collision Testing/Avatar & Non-Avatar Interaction)
