@@ -5,7 +5,7 @@ Includes assignments, professional work, and personal code
 
 2014
 
-- **2014_portfolio** -- Image portfolio mockup assignment.
+- **2014_portfolio** -- Image portfolio mockup assignment. Preview (w/ NYU connection): http://i6.cims.nyu.edu/~ahf254/portfolio/index.html
 
 2015
 
